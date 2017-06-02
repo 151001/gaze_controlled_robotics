@@ -1,0 +1,122 @@
+[2017-06-02 09:25:35(701)][I]	---------------------------AnyChat Platform Core SDK Client Log---------------------------
+[2017-06-02 09:25:35(716)][I]	Load BRAnyChatCore.dll success!(V6.3 Build Time:Jan 21 2017 20:52:58)
+[2017-06-02 09:25:35(873)][I]	Load BRMiscUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:55:27)
+[2017-06-02 09:25:36(013)][I]	Load BRMediaUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:52:01)
+[2017-06-02 09:25:36(029)][I]	Load BRMediaShow.dll success!(V6.3 Build Time:Jan 21 2017 20:55:33)
+[2017-06-02 09:25:36(060)][I]	Load BRMediaCore.dll success!(V6.3 Build Time:Jan 21 2017 20:55:47)
+[2017-06-02 09:25:36(091)][I]	Video capture device supported:
+[2017-06-02 09:25:36(091)][I]		1-Microsoft Camera Front
+[2017-06-02 09:25:36(091)][I]		2-Microsoft Camera Rear
+[2017-06-02 09:25:36(091)][I]		3-USB2.0 PC Camera (SN9C201)
+[2017-06-02 09:25:36(107)][I]	Audio capture device supported:
+[2017-06-02 09:25:36(107)][I]		1-Microphone Array (Realtek High Definition Audio(SST))
+[2017-06-02 09:25:36(107)][I]	server net link reset...
+[2017-06-02 09:25:36(123)][I]	Invoke	SetSDKOption(BRAC_SO_CORESDK_USEHWCODEC=1)
+[2017-06-02 09:25:36(123)][I]	Start network engine(IPv4 mode)...
+[2017-06-02 09:25:36(138)][I]	Invoke	Connect(demo.anychat.cn,8906)=0
+[2017-06-02 09:25:36(138)][I]	Invoke	Login(username:s151001-robot)=0
+[2017-06-02 09:25:36(669)][I]	Create anychatdnsserver connect:121.199.51.198(8906)
+[2017-06-02 09:25:41(274)][I]	On pre-connection result, errorcode:0, anychatcoreserver, 121.199.51.198(8906, tcp:1)
+[2017-06-02 09:25:41(274)][I]	Start anychat server(121.199.51.198:8906) connect...
+[2017-06-02 09:25:45(275)][I]	On connect anychat server return, errorcode: 0, appflags:0x460080, svrflags:0x10
+[2017-06-02 09:25:45(806)][I]	m_ProtocolPipeLine, userid:0, local session:16261166, peer session:0
+[2017-06-02 09:25:45(806)][I]	Send login request...
+[2017-06-02 09:25:45(822)][I]	Message	OnConnect(bSuccess:1, errorcode=0)
+[2017-06-02 09:25:46(494)][I]	Server version: V6.4(Build Time:2017-05-14 20:24:12, Windows server)
+[2017-06-02 09:25:46(806)][I]	Message	OnLoginSystem(userid=4515,errorcode=0,username=s151001-robot), msg deliver worked(1)
+[2017-06-02 09:25:46(806)][I]	Server running time: 8 days, 19 hours, 16 minutes, license mode:1, cert:0x9ffffff
+[2017-06-02 09:25:46(806)][I]	Invoke	EnterRoom(roomid=151001)
+[2017-06-02 09:25:46(806)][I]	Server supports the session hold feature for up to 30000 ms
+[2017-06-02 09:25:47(322)][I]	Connection to streaming media server successfully!(udp delay:250ms)
+[2017-06-02 09:25:47(931)][I]	Message	OnEnterRoom(roomid=151001,errorcode=0,siteindex=0)
+[2017-06-02 09:25:47(931)][I]	Message	OnReceiveOnlineUser(count=1,roomid=151001)
+[2017-06-02 09:25:47(947)][I]	Invoke	SetVideoPos(dwUserId:-1, hWnd:0xa0082, l:16, t:1277, r:899, b:1666, dwStreamIndex:0)
+[2017-06-02 09:25:47(947)][I]	Invoke	UserCameraControl(userid=-1, bOpen=1, stream=0)
+[2017-06-02 09:25:47(963)][I]	Invoke	UserSpeakControl(userid=-1,bOpen=1)
+[2017-06-02 09:25:48(135)][I]	WaveIn Audio Capture Driver(Microphone Array (Realtek High )
+[2017-06-02 09:25:48(135)][I]	Audio Init, error:0, device:0, 1, 16000, 16, capmode:0
+[2017-06-02 09:25:48(150)][I]	Audio codec init, handle:1, 11, 1, 16000, 16, 15850
+[2017-06-02 09:25:48(181)][I]	Audio Playback Device Init(0, 1, 16000, 16), WaveOut Playback Driver
+[2017-06-02 09:25:48(199)][I]	Audio FX Status: VAD:1, NS:1, AGC:1, AEC:1
+[2017-06-02 09:25:49(873)][I]	MinCroppingSize(1920, 1080)	MaxCroppingSize(1920, 1080)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 09:25:49(876)][I]	MinCroppingSize(640, 360)	MaxCroppingSize(640, 360)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 09:25:49(881)][I]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 09:25:49(885)][I]	MinCroppingSize(640, 640)	MaxCroppingSize(640, 640)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 09:25:49(890)][I]	MinCroppingSize(1280, 720)	MaxCroppingSize(1280, 720)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 09:25:49(895)][I]	MinCroppingSize(640, 360)	MaxCroppingSize(640, 360)	Format(YUY2, 0x32595559, 14fps)
+[2017-06-02 09:25:49(899)][I]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x32595559, 14fps)
+[2017-06-02 09:25:49(904)][I]	MinCroppingSize(640, 640)	MaxCroppingSize(640, 640)	Format(YUY2, 0x32595559, 14fps)
+[2017-06-02 09:25:49(909)][I]	MinCroppingSize(1280, 720)	MaxCroppingSize(1280, 720)	Format(YUY2, 0x32595559, 14fps)
+[2017-06-02 09:25:49(913)][I]	MinCroppingSize(1920, 1080)	MaxCroppingSize(1920, 1080)	Format(YUY2, 0x32595559, 14fps)
+[2017-06-02 09:25:49(918)][I]	Prepare config camera(1-Microsoft Camera Front): 320x240, 25fps
+[2017-06-02 09:25:49(924)][I]		Video Config Size(640, 480)	Format(YUY2, 30fps)
+[2017-06-02 09:25:50(251)][I]	video(stream:0) codec init:codec:1, 15fps, 640x480, bitrate:90kbps, quality:3, preset:3, gop:30, handle:2
+[2017-06-02 09:25:50(256)][I]	video(stream:0) init finish:640x480, YUY2, fps:30, codecid:1
+[2017-06-02 09:26:10(696)][I]	Message	OnUserEnterRoom(userid=4516,nickname=s151001-usbcam,siteindex=1)
+[2017-06-02 09:26:11(130)][I]	Message	OnP2PConnectState(userid=4516, state=2)
+[2017-06-02 09:26:11(331)][I]	Message	OnP2PConnectState(userid=4516, state=3)
+[2017-06-02 09:27:03(323)][I]	Message	OnUserEnterRoom(userid=4517,nickname=s151001-Gaze,siteindex=2)
+[2017-06-02 09:27:03(329)][I]	Invoke	SetVideoPos(dwUserId:4517, hWnd:0xa0082, l:16, t:17, r:2714, b:1256, dwStreamIndex:0)
+[2017-06-02 09:27:03(339)][I]	Invoke	UserCameraControl(userid=4517, bOpen=1, stream=0)
+[2017-06-02 09:27:03(345)][I]	Invoke	UserSpeakControl(userid=4517,bOpen=1)
+[2017-06-02 09:27:04(659)][I]	Message	OnP2PConnectState(userid=4517, state=2)
+[2017-06-02 09:27:04(715)][I]	Connection to streaming media server successfully!(udp delay:226ms)
+[2017-06-02 09:27:04(842)][I]	Message	OnP2PConnectState(userid=4517, state=3)
+[2017-06-02 09:27:14(365)][I]	On Remote UserCameraControl(dwUserId:4517, bOpen:1, streamindex:0)
+[2017-06-02 09:27:14(370)][I]	On Remote UserSpeakControl(dwUserId:4517, bOpen:1, streamindex:0)
+[2017-06-02 09:27:14(403)][I]	video codec init:codec:1, 15fps, 640x480, bitrate:90kbps, quality:3, preset:3, gop:30, handle:3
+[2017-06-02 09:27:39(887)][I]	Connection to streaming media server successfully!(udp delay:289ms)
+[2017-06-02 09:28:05(906)][E]	OnSocketClose, index(4)-errorcode(0-0), flags:0x81, userid(4517), master connect:0, list:0
+
+[2017-06-02 09:28:05(946)][I]	Message	OnP2PConnectState(userid=4517, state=2)
+[2017-06-02 09:28:06(690)][I]	Message	OnUserLeaveRoom(userid=4517,siteindex=2)
+[2017-06-02 09:28:06(698)][I]	Invoke	SetVideoPos(dwUserId:4517, hWnd:0xa0082, l:16, t:17, r:2714, b:1256, dwStreamIndex:0)
+[2017-06-02 09:28:06(703)][I]	Invoke	UserCameraControl(userid=4517, bOpen=0, stream=0)
+[2017-06-02 09:28:06(709)][I]	Invoke	UserSpeakControl(userid=4517,bOpen=0)
+[2017-06-02 09:30:12(060)][I]	Message	OnUserEnterRoom(userid=4520,nickname=s151001-Gaze,siteindex=2)
+[2017-06-02 09:30:12(071)][I]	Invoke	SetVideoPos(dwUserId:4520, hWnd:0xa0082, l:16, t:17, r:2714, b:1256, dwStreamIndex:0)
+[2017-06-02 09:30:12(079)][I]	Invoke	UserCameraControl(userid=4520, bOpen=1, stream=0)
+[2017-06-02 09:30:12(098)][I]	Invoke	UserSpeakControl(userid=4520,bOpen=1)
+[2017-06-02 09:30:12(345)][I]	Message	OnP2PConnectState(userid=4520, state=2)
+[2017-06-02 09:30:12(485)][I]	Message	OnP2PConnectState(userid=4520, state=3)
+[2017-06-02 09:30:12(689)][I]	On Remote UserCameraControl(dwUserId:4520, bOpen:1, streamindex:0)
+[2017-06-02 09:30:12(698)][I]	On Remote UserSpeakControl(dwUserId:4520, bOpen:1, streamindex:0)
+[2017-06-02 09:34:18(472)][I]	Message	OnUserEnterRoom(userid=4523,nickname=s151001-student,siteindex=3)
+[2017-06-02 09:34:19(006)][I]	Message	OnP2PConnectState(userid=4523, state=2)
+[2017-06-02 09:34:19(207)][I]	Message	OnP2PConnectState(userid=4523, state=3)
+[2017-06-02 09:34:19(531)][I]	On Remote UserCameraControl(dwUserId:4523, bOpen:1, streamindex:0)
+[2017-06-02 09:34:19(560)][I]	On Remote UserSpeakControl(dwUserId:4523, bOpen:1, streamindex:0)
+[2017-06-02 09:36:14(033)][E]	OnSocketClose, index(5)-errorcode(0-0), flags:0x81, userid(4523), master connect:0, list:0
+
+[2017-06-02 09:36:14(058)][I]	Message	OnP2PConnectState(userid=4523, state=2)
+[2017-06-02 09:36:14(430)][I]	Message	OnUserLeaveRoom(userid=4523,siteindex=3)
+[2017-06-02 09:50:39(772)][I]	Connection to streaming media server successfully!(udp delay:242ms)
+[2017-06-02 09:52:19(968)][I]	Connection to streaming media server successfully!(udp delay:273ms)
+[2017-06-02 09:56:54(745)][I]	Connection to streaming media server successfully!(udp delay:210ms)
+[2017-06-02 09:58:05(863)][I]	Connection to streaming media server successfully!(udp delay:265ms)
+[2017-06-02 10:02:30(705)][I]	Connection to streaming media server successfully!(udp delay:234ms)
+[2017-06-02 10:11:35(605)][I]	Connection to streaming media server successfully!(udp delay:211ms)
+[2017-06-02 10:19:30(564)][I]	Connection to streaming media server successfully!(udp delay:203ms)
+[2017-06-02 10:27:30(631)][I]	Connection to streaming media server successfully!(udp delay:218ms)
+[2017-06-02 10:39:10(742)][I]	Connection to streaming media server successfully!(udp delay:234ms)
+[2017-06-02 10:39:19(275)][I]	Message	OnUserEnterRoom(userid=4580,nickname=s151001-robot,siteindex=3)
+[2017-06-02 10:39:19(510)][I]	Message	OnP2PConnectState(userid=4580, state=2)
+[2017-06-02 10:39:19(650)][I]	Message	OnP2PConnectState(userid=4580, state=3)
+[2017-06-02 10:39:23(683)][E]	OnSocketClose, index(5)-errorcode(10053-0), flags:0x81, userid(4580), master connect:0, list:0
+
+[2017-06-02 10:39:23(698)][I]	Message	OnP2PConnectState(userid=4580, state=2)
+[2017-06-02 10:39:24(392)][I]	Message	OnUserLeaveRoom(userid=4580,siteindex=3)
+[2017-06-02 10:40:50(763)][I]	Connection to streaming media server successfully!(udp delay:258ms)
+[2017-06-02 10:41:23(938)][I]	Message	OnUserEnterRoom(userid=4584,nickname=s151001-robot,siteindex=3)
+[2017-06-02 10:41:24(922)][I]	Message	OnP2PConnectState(userid=4584, state=2)
+[2017-06-02 10:41:25(052)][I]	Message	OnP2PConnectState(userid=4584, state=3)
+[2017-06-02 10:41:36(828)][I]	Connection to streaming media server successfully!(udp delay:265ms)
+[2017-06-02 10:42:44(634)][I]	Message	OnUserEnterRoom(userid=4585,nickname=s151001-usbcam,siteindex=4)
+[2017-06-02 10:42:45(105)][I]	Message	OnP2PConnectState(userid=4585, state=2)
+[2017-06-02 10:42:45(277)][I]	Message	OnP2PConnectState(userid=4585, state=3)
+[2017-06-02 10:43:08(415)][I]	Invoke	LeaveRoom(roomid=151001)	Elapse:359 ms
+[2017-06-02 10:43:08(520)][I]	Close network engine...
+[2017-06-02 10:43:08(537)][I]	Invoke	LogoutServer(userid=4515)	Elapse:125 ms
+[2017-06-02 10:43:08(546)][I]	server net link reset...
+[2017-06-02 10:43:08(776)][I]	server net link reset...
+[2017-06-02 10:43:08(800)][I]	Invoke	BRAC_Release	Elapse:250 ms

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Calibration>
+  <Scenario3D Main="false">
+    <CalibrationTriangle From00toX0="750" FromX0toXY="750" FromXYto00="750" />
+    <Receiver Id="31031" DistanceTo00="4575" DistanceToX0="4610" DistanceToXY="4019" />
+    <Receiver Id="31033" DistanceTo00="4727" DistanceToX0="4650" DistanceToXY="4113" />
+    <Receiver Id="31234" DistanceTo00="3860" DistanceToX0="3777" DistanceToXY="3274" />
+    <MergeTranslation X="0" Y="0" Z="0" />
+    <MergeRotationAxis X="0" Y="0" Z="1" />
+    <MergeRotationAngle Degrees="0" />
+  </Scenario3D>
+</Calibration>

@@ -1,0 +1,24 @@
+[2017-04-26 19:21:45(044)][I]	---------------------------AnyChat Platform Core SDK Client Log---------------------------
+[2017-04-26 19:21:45(049)][I]	Load BRAnyChatCore.dll success!(V6.3 Build Time:Jan 21 2017 20:52:58)
+[2017-04-26 19:21:45(058)][I]	Load BRMiscUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:55:27)
+[2017-04-26 19:21:45(208)][I]	Load BRMediaUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:52:01)
+[2017-04-26 19:21:45(234)][I]	Load BRMediaShow.dll success!(V6.3 Build Time:Jan 21 2017 20:55:33)
+[2017-04-26 19:21:45(303)][I]	Load BRMediaCore.dll success!(V6.3 Build Time:Jan 21 2017 20:55:47)
+[2017-04-26 19:21:45(404)][I]	Video capture device supported:
+[2017-04-26 19:21:45(423)][I]		1-Microsoft Camera Front
+[2017-04-26 19:21:45(429)][I]		2-Microsoft Camera Rear
+[2017-04-26 19:21:45(437)][I]	Audio capture device supported:
+[2017-04-26 19:21:45(447)][I]		1-Microphone Array (Realtek High Definition Audio(SST))
+[2017-04-26 19:21:45(462)][I]	server net link reset...
+[2017-04-26 19:21:45(471)][I]	Invoke	SetSDKOption(BRAC_SO_CORESDK_USEHWCODEC=1)
+[2017-04-26 19:21:45(497)][I]	Start network engine(IPv4 mode)...
+[2017-04-26 19:21:45(508)][I]	Invoke	Connect(demo.anychat.cn,8906)=0
+[2017-04-26 19:21:45(529)][I]	Invoke	Login(username:s151001-robot)=0
+[2017-04-26 19:21:47(990)][I]	Create anychatdnsserver connect:121.199.51.198(8906)
+[2017-04-26 19:21:58(001)][I]	Connect anychatdnsserver timeout, errorcode:100
+[2017-04-26 19:21:58(004)][I]	Message	OnConnect(bSuccess:0, errorcode=100)
+[2017-04-26 19:22:03(350)][I]	Close network engine...
+[2017-04-26 19:22:03(358)][I]	Invoke	LogoutServer(userid=-1)	Elapse:62 ms
+[2017-04-26 19:22:03(364)][I]	server net link reset...
+[2017-04-26 19:22:03(581)][I]	server net link reset...
+[2017-04-26 19:22:03(585)][I]	Invoke	BRAC_Release	Elapse:219 ms
