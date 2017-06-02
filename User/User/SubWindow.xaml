@@ -1,0 +1,40 @@
+﻿<Window x:Class="User.SubWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User"
+        mc:Ignorable="d"
+        Title="SubWindow" Height="600" Width="800" Loaded="Window_Loaded">
+    <Grid Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="224*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="132*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="158*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="114*"/>
+            <RowDefinition Height="175*"/>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="image" Margin="0,0.4,-2.13,0.4" Grid.ColumnSpan="7" Stretch="Fill" Source="images/map.png" Grid.RowSpan="5" Grid.Row="1"/>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Margin="4.93,10,10.87,5.6" Grid.Column="6">
+            <Image x:Name="viewImg" Margin="0" Stretch="Fill" Source="images/btnbg.png" MouseEnter="viewImg_MouseEnter" MouseLeave="viewImg_MouseLeave" MouseDown="viewImg_MouseDown"/>
+        </Border>
+        <Image x:Name="controlImg" Grid.Column="6" HorizontalAlignment="Center" Height="52" Margin="58.93,31,62.87,30.6" VerticalAlignment="Center" Width="39" Stretch="Fill" Source="images/control.png" RenderTransformOrigin="1.467,1.204" MouseEnter="controlImg_MouseEnter" MouseLeave="controlImg_MouseLeave" MouseDown="controlImg_MouseDown"/>
+        <Image x:Name="zeroImg" Margin="0" Stretch="Fill" Source="images/zero.png" Grid.Row="2" Grid.Column="1" MouseEnter="zeroImg_MouseEnter" MouseLeave="zeroImg_MouseLeave" MouseDown="zeroImg_MouseDown"/>
+        <Image x:Name="oneImg" Margin="0" Grid.Row="2" Grid.Column="3" Stretch="Fill" Source="images/one.png" MouseEnter="oneImg_MouseEnter" MouseLeave="oneImg_MouseLeave" MouseDown="oneImg_MouseDown"/>
+        <Image x:Name="twoImg" Grid.Column="5" Margin="0" Grid.Row="2" Stretch="Fill" Source="images/two.png" MouseEnter="twoImg_MouseEnter" MouseLeave="twoImg_MouseLeave" MouseDown="twoImg_MouseDown"/>
+        <Image x:Name="threeImg" Grid.Column="3" Margin="0" Grid.Row="4" Stretch="Fill" Source="images/three.png" MouseEnter="threeImg_MouseEnter" MouseLeave="threeImg_MouseLeave"/>
+        <Canvas x:Name="canvasbg" Margin="0" Grid.RowSpan="6" Grid.ColumnSpan="7">
+            <Image x:Name="gaze" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="51" Stretch="Fill" Source="images/Gaze.png" Canvas.Left="56" Canvas.Top="51"/>
+        </Canvas>
+    </Grid>
+</Window>

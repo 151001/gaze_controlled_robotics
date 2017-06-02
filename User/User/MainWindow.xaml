@@ -1,0 +1,52 @@
+﻿<Window x:Name="MainWin" x:Class="User.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User"
+        mc:Ignorable="d"
+        Title="MainWindow" Loaded="Window_Loaded" Closed="Window_Closed" d:DesignWidth="1238.4" d:DesignHeight="770.4" Width="800" Height="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="600*"/>
+            <ColumnDefinition Width="200*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Margin="10,10,5,5">
+            <Image x:Name="viewImg" Margin="0" Source="images/btnbg.png" Stretch="Fill" MouseEnter="viewImg_MouseEnter" MouseLeave="viewImg_MouseLeave" MouseDown="viewImg_MouseDown"/>
+        </Border>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Grid.Column="1" Margin="5,10,5,5">
+            <Image x:Name="fwdImg" Grid.Column="1" Margin="0" Source="images/btnbg.png" Stretch="Fill" MouseEnter="fwdImg_MouseEnter" MouseLeave="fwdImg_MouseLeave" MouseDown="fwdImg_MouseDown"/>
+        </Border>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Margin="10,5,5,5" Grid.Row="1">
+            <Image x:Name="leftImg" Margin="0" Grid.Row="1" Source="images/btnbg.png" Stretch="Fill" MouseEnter="leftImg_MouseEnter" MouseLeave="leftImg_MouseLeave" MouseDown="leftImg_MouseDown"/>
+        </Border>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Grid.Column="1" Margin="5,5,5,10" Grid.Row="2">
+            <Image x:Name="backImg" Grid.Column="1" Margin="0" Grid.Row="2" Source="images/btnbg.png" Stretch="Fill" MouseEnter="backImg_MouseEnter" MouseLeave="backImg_MouseLeave" MouseDown="backImg_MouseDown"/>
+        </Border>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Grid.Column="2" Margin="5,5,10,5" Grid.Row="1">
+            <Image x:Name="rightImg" Grid.Column="2" Margin="0" Grid.Row="1" Source="images/btnbg.png" Stretch="Fill" MouseEnter="rightImg_MouseEnter" MouseLeave="rightImg_MouseLeave" MouseDown="rightImg_MouseDown"/>
+        </Border>
+        <Image x:Name="mapview" Width="35" Height="52" Source="images/view.png" MouseEnter="mapview_MouseEnter" MouseLeave="mapview_MouseLeave" MouseDown="mapview_MouseDown" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Image x:Name="fwd_arrow" Grid.Column="1" Height="52" Margin="0" Width="39" Source="images/fwd.png" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" MouseEnter="fwd_arrow_MouseEnter" MouseLeave="fwd_arrow_MouseLeave" MouseDown="fwd_arrow_MouseDown"/>
+        <Image x:Name="left_arrow" HorizontalAlignment="Center" Height="39" Margin="0" Grid.Row="1" VerticalAlignment="Center" Width="51" Stretch="Fill" Source="images/left.png" MouseEnter="left_arrow_MouseEnter" MouseLeave="left_arrow_MouseLeave" MouseDown="left_arrow_MouseDown"/>
+        <Image x:Name="back_arrow" Grid.Column="1" HorizontalAlignment="Center" Height="51" Margin="0" Grid.Row="2" VerticalAlignment="Center" Width="39" Stretch="Fill" Source="images/back.png" MouseEnter="back_arrow_MouseEnter" MouseLeave="back_arrow_MouseLeave" MouseDown="back_arrow_MouseDown"/>
+        <Image x:Name="right_arrow" Grid.Column="2" HorizontalAlignment="Center" Height="39" Margin="0" Grid.Row="1" VerticalAlignment="Center" Width="51" Stretch="Fill" Source="images/right.png" MouseEnter="right_arrow_MouseEnter" MouseLeave="right_arrow_MouseLeave" MouseDown="right_arrow_MouseDown"/>
+        <Label x:Name="label" Content="System Information" Grid.Column="2" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="Microsoft YaHei UI"/>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="0.5" Grid.Column="2" Margin="5,30,10,10" Grid.Row="2">
+            <TextBox x:Name="sysInfoTxt" Margin="0" TextWrapping="Wrap" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light" Foreground="#FF5C5C5C"/>
+        </Border>
+        <Border BorderBrush="#FFD8D8D8" BorderThickness="1" Grid.Column="2" Margin="5,10,10,5">
+            <Image x:Name="stopImg" Margin="0" Source="images/btnbg.png" Stretch="Fill" MouseEnter="stopImg_MouseEnter" MouseLeave="stopImg_MouseLeave" MouseDown="stopImg_MouseDown"/>
+        </Border>
+        <Image x:Name="stop_icon" Grid.Column="2" Margin="0" Width="52" Height="52" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Source="images/stop.png" MouseEnter="stop_icon_MouseEnter" MouseLeave="stop_icon_MouseLeave" MouseDown="stop_icon_MouseDown"/>
+        <Canvas x:Name="canvasbg" Margin="0" Grid.ColumnSpan="3" Grid.RowSpan="3">
+            <Image x:Name="gaze" HorizontalAlignment="Center" Height="30" Margin="0" VerticalAlignment="Center" Width="50" Source="images/Gaze.png" Stretch="Fill" Grid.Column="1" Grid.Row="1" Canvas.Left="367" Canvas.Top="269"/>
+        </Canvas>
+    </Grid>
+</Window>
