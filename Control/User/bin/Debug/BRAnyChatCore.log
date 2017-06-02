@@ -1,0 +1,48 @@
+[2017-06-02 11:54:46(533)][I]	---------------------------AnyChat Platform Core SDK Client Log---------------------------
+[2017-06-02 11:54:46(533)][I]	Load BRAnyChatCore.dll success!(V6.3 Build Time:Jan 21 2017 20:52:58)
+[2017-06-02 11:54:46(602)][I]	Load BRMiscUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:55:27)
+[2017-06-02 11:54:47(049)][I]	Load BRMediaUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:52:01)
+[2017-06-02 11:54:47(065)][I]	Load BRMediaShow.dll success!(V6.3 Build Time:Jan 21 2017 20:55:33)
+[2017-06-02 11:54:47(165)][I]	Load BRMediaCore.dll success!(V6.3 Build Time:Jan 21 2017 20:55:47)
+[2017-06-02 11:54:47(219)][I]	Video capture device supported:
+[2017-06-02 11:54:47(219)][I]		1-Integrated Webcam
+[2017-06-02 11:54:47(219)][I]	Audio capture device supported:
+[2017-06-02 11:54:47(223)][I]		1-Microphone Array (Sound Blaster Recon3Di)
+[2017-06-02 11:54:47(223)][I]		2-What U Hear (Sound Blaster Recon3Di)
+[2017-06-02 11:54:47(235)][I]	server net link reset...
+[2017-06-02 11:54:47(239)][I]	Invoke	SetSDKOption(BRAC_SO_CORESDK_USEHWCODEC=1)
+[2017-06-02 11:54:47(239)][I]	Start network engine(IPv4 mode)...
+[2017-06-02 11:54:47(239)][I]	Invoke	Connect(demo.anychat.cn,8906)=0
+[2017-06-02 11:54:47(239)][I]	Invoke	Login(username:s151001-student)=0
+[2017-06-02 11:54:47(255)][I]	Create anychatdnsserver connect:121.199.51.198(8906)
+[2017-06-02 11:54:51(970)][I]	On pre-connection result, errorcode:0, anychatcoreserver, 121.199.51.198(8906, tcp:1)
+[2017-06-02 11:54:51(970)][I]	Start anychat server(121.199.51.198:8906) connect...
+[2017-06-02 11:54:55(843)][I]	On connect anychat server return, errorcode: 0, appflags:0x460080, svrflags:0x10
+[2017-06-02 11:54:56(311)][I]	m_ProtocolPipeLine, userid:0, local session:-1129701799, peer session:0
+[2017-06-02 11:54:56(311)][I]	Send login request...
+[2017-06-02 11:54:56(311)][I]	Message	OnConnect(bSuccess:1, errorcode=0)
+[2017-06-02 11:54:57(044)][I]	Server version: V6.4(Build Time:2017-05-14 20:24:12, Windows server)
+[2017-06-02 11:54:57(229)][I]	Message	OnLoginSystem(userid=4666,errorcode=0,username=s151001-student), msg deliver worked(1)
+[2017-06-02 11:54:57(229)][I]	Server running time: 8 days, 21 hours, 45 minutes, license mode:1, cert:0x9ffffff
+[2017-06-02 11:54:57(229)][I]	Invoke	EnterRoom(roomid=151001)
+[2017-06-02 11:54:57(229)][I]	Server supports the session hold feature for up to 30000 ms
+[2017-06-02 11:54:57(681)][I]	Connection to streaming media server successfully!(udp delay:226ms)
+[2017-06-02 11:54:58(029)][I]	Message	OnEnterRoom(roomid=151001,errorcode=0,siteindex=1)
+[2017-06-02 11:54:58(029)][I]	Message	OnReceiveOnlineUser(count=2,roomid=151001)
+[2017-06-02 11:54:58(029)][I]	Invoke	SetVideoPos(dwUserId:4661, hWnd:0x30063c, l:13, t:674, r:630, b:988, dwStreamIndex:0)
+[2017-06-02 11:54:58(029)][I]	Invoke	UserCameraControl(userid=4661, bOpen=1, stream=0)
+[2017-06-02 11:54:58(029)][I]	Invoke	UserSpeakControl(userid=4661,bOpen=1)
+[2017-06-02 11:54:58(098)][I]	WaveIn Audio Capture Driver(Microphone Array (Sound Blaster)
+[2017-06-02 11:54:58(098)][I]	Audio Init, error:0, device:0, 1, 16000, 16, capmode:0
+[2017-06-02 11:54:58(160)][I]	Audio codec init, handle:1, 11, 1, 16000, 16, 15850
+[2017-06-02 11:54:58(208)][I]	Audio Playback Device Init(0, 1, 16000, 16), WaveOut Playback Driver
+[2017-06-02 11:55:00(542)][I]	userid(4661) video decode, codec:1, 1920x1080, delay:62ms
+[2017-06-02 11:55:00(873)][I]	userid(4661) audio decode, codec:11, 1 channel, 16000Hz
+[2017-06-02 11:55:01(024)][I]	Message	OnP2PConnectState(userid=4661, state=2)
+[2017-06-02 11:55:04(111)][I]	Message	OnP2PConnectState(userid=4661, state=3)
+[2017-06-02 11:55:18(467)][I]	Invoke	LeaveRoom(roomid=151001)	Elapse:125 ms
+[2017-06-02 11:55:18(634)][I]	Close network engine...
+[2017-06-02 11:55:18(640)][I]	Invoke	LogoutServer(userid=4666)	Elapse:172 ms
+[2017-06-02 11:55:18(641)][I]	server net link reset...
+[2017-06-02 11:55:18(867)][I]	server net link reset...
+[2017-06-02 11:55:18(868)][I]	Invoke	BRAC_Release	Elapse:234 ms
