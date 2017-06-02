@@ -1,0 +1,86 @@
+[2017-06-02 11:33:48(396)][I]	---------------------------AnyChat Platform Core SDK Client Log---------------------------
+[2017-06-02 11:33:48(397)][I]	Load BRAnyChatCore.dll success!(V6.3 Build Time:Jan 21 2017 20:52:58)
+[2017-06-02 11:33:48(404)][I]	Load BRMiscUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:55:27)
+[2017-06-02 11:33:48(560)][I]	Load BRMediaUtil.dll success!(V6.3 Build Time:Jan 21 2017 20:52:01)
+[2017-06-02 11:33:48(562)][I]	Load BRMediaShow.dll success!(V6.3 Build Time:Jan 21 2017 20:55:33)
+[2017-06-02 11:33:48(568)][I]	Load BRMediaCore.dll success!(V6.3 Build Time:Jan 21 2017 20:55:47)
+[2017-06-02 11:33:48(723)][I]	Video capture device supported:
+[2017-06-02 11:33:48(726)][I]		1-Integrated Webcam
+[2017-06-02 11:33:48(727)][I]	Audio capture device supported:
+[2017-06-02 11:33:48(729)][I]		1-Microphone Array (Sound Blaster Recon3Di)
+[2017-06-02 11:33:48(730)][I]		2-What U Hear (Sound Blaster Recon3Di)
+[2017-06-02 11:33:48(735)][I]	server net link reset...
+[2017-06-02 11:33:48(741)][I]	Invoke	SetSDKOption(BRAC_SO_CORESDK_USEHWCODEC=1)
+[2017-06-02 11:33:48(753)][I]	Start network engine(IPv4 mode)...
+[2017-06-02 11:33:48(754)][I]	Invoke	Connect(demo.anychat.cn,8906)=0
+[2017-06-02 11:33:48(756)][I]	Invoke	Login(username:s151001-Gaze)=0
+[2017-06-02 11:33:49(130)][I]	Create anychatdnsserver connect:121.199.51.198(8906)
+[2017-06-02 11:33:53(278)][I]	On pre-connection result, errorcode:0, anychatcoreserver, 121.199.51.198(8906, tcp:1)
+[2017-06-02 11:33:53(281)][I]	Start anychat server(121.199.51.198:8906) connect...
+[2017-06-02 11:33:54(090)][I]	On connect anychat server return, errorcode: 0, appflags:0x460080, svrflags:0x10
+[2017-06-02 11:33:54(790)][I]	m_ProtocolPipeLine, userid:0, local session:1082600794, peer session:0
+[2017-06-02 11:33:54(792)][I]	Send login request...
+[2017-06-02 11:33:54(793)][I]	Message	OnConnect(bSuccess:1, errorcode=0)
+[2017-06-02 11:33:55(746)][I]	Server version: V6.4(Build Time:2017-05-14 20:24:12, Windows server)
+[2017-06-02 11:33:55(885)][I]	Message	OnLoginSystem(userid=4646,errorcode=0,username=s151001-Gaze), msg deliver worked(1)
+[2017-06-02 11:33:55(887)][I]	Server running time: 8 days, 21 hours, 24 minutes, license mode:1, cert:0x9ffffff
+[2017-06-02 11:33:55(887)][I]	Invoke	EnterRoom(roomid=151001)
+[2017-06-02 11:33:55(889)][I]	Server supports the session hold feature for up to 30000 ms
+[2017-06-02 11:33:56(287)][I]	Connection to streaming media server successfully!(udp delay:195ms)
+[2017-06-02 11:33:56(682)][I]	Message	OnEnterRoom(roomid=151001,errorcode=0,siteindex=3)
+[2017-06-02 11:33:56(684)][I]	Message	OnReceiveOnlineUser(count=4,roomid=151001)
+[2017-06-02 11:33:56(696)][I]	WaveIn Audio Capture Driver(Microphone Array (Sound Blaster)
+[2017-06-02 11:33:56(697)][I]	Audio Init, error:0, device:0, 1, 16000, 16, capmode:0
+[2017-06-02 11:33:56(698)][I]	Audio codec init, handle:1, 11, 1, 16000, 16, 15850
+[2017-06-02 11:33:56(703)][I]	Invoke	SetVideoPos(dwUserId:-1, hWnd:0x240384, l:0, t:0, r:0, b:0, dwStreamIndex:0)
+[2017-06-02 11:33:56(705)][I]	Invoke	UserCameraControl(userid=-1, bOpen=1, stream=0)
+[2017-06-02 11:33:56(706)][I]	Invoke	UserSpeakControl(userid=-1,bOpen=1)
+[2017-06-02 11:33:56(710)][I]	Invoke	SetVideoPos(dwUserId:4600, hWnd:0x240384, l:13, t:808, r:376, b:988, dwStreamIndex:2)
+[2017-06-02 11:33:56(711)][I]	Audio Playback Device Init(0, 1, 16000, 16), WaveOut Playback Driver
+[2017-06-02 11:33:56(711)][I]	Invoke	UserCameraControl(userid=4600, bOpen=1, stream=2)
+[2017-06-02 11:33:56(713)][I]	Invoke	UserSpeakControl(userid=4600,bOpen=1)
+[2017-06-02 11:33:56(714)][I]	Invoke	SetVideoPos(dwUserId:4601, hWnd:0x240384, l:390, t:207, r:1530, b:794, dwStreamIndex:0)
+[2017-06-02 11:33:56(716)][I]	Invoke	UserCameraControl(userid=4601, bOpen=1, stream=0)
+[2017-06-02 11:33:56(717)][I]	Invoke	UserSpeakControl(userid=4601,bOpen=1)
+[2017-06-02 11:33:56(748)][I]	Audio FX Status: VAD:1, NS:1, AGC:1, AEC:1
+[2017-06-02 11:33:56(901)][I]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(903)][I]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(904)][I]	MinCroppingSize(160, 120)	MaxCroppingSize(160, 120)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(905)][I]	MinCroppingSize(160, 120)	MaxCroppingSize(160, 120)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(906)][I]	MinCroppingSize(320, 180)	MaxCroppingSize(320, 180)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(907)][I]	MinCroppingSize(320, 180)	MaxCroppingSize(320, 180)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(908)][I]	MinCroppingSize(320, 240)	MaxCroppingSize(320, 240)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(909)][I]	MinCroppingSize(320, 240)	MaxCroppingSize(320, 240)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(910)][I]	MinCroppingSize(424, 240)	MaxCroppingSize(424, 240)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(911)][I]	MinCroppingSize(424, 240)	MaxCroppingSize(424, 240)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(912)][I]	MinCroppingSize(640, 360)	MaxCroppingSize(640, 360)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(913)][I]	MinCroppingSize(640, 360)	MaxCroppingSize(640, 360)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(914)][I]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x32595559, 30fps)
+[2017-06-02 11:33:56(915)][I]	MinCroppingSize(640, 480)	MaxCroppingSize(640, 480)	Format(YUY2, 0x8d2681, 30fps)
+[2017-06-02 11:33:56(916)][I]	MinCroppingSize(848, 480)	MaxCroppingSize(848, 480)	Format(MJPG, 0x47504a4d, 30fps)
+[2017-06-02 11:33:56(917)][I]	MinCroppingSize(848, 480)	MaxCroppingSize(848, 480)	Format(MJPG, 0x8d1181, 30fps)
+[2017-06-02 11:33:56(919)][I]	MinCroppingSize(960, 540)	MaxCroppingSize(960, 540)	Format(MJPG, 0x47504a4d, 30fps)
+[2017-06-02 11:33:56(920)][I]	MinCroppingSize(960, 540)	MaxCroppingSize(960, 540)	Format(MJPG, 0x8d1181, 30fps)
+[2017-06-02 11:33:56(921)][I]	MinCroppingSize(1280, 720)	MaxCroppingSize(1280, 720)	Format(MJPG, 0x47504a4d, 30fps)
+[2017-06-02 11:33:56(923)][I]	MinCroppingSize(1280, 720)	MaxCroppingSize(1280, 720)	Format(MJPG, 0x8d1181, 30fps)
+[2017-06-02 11:33:56(924)][I]	MinCroppingSize(1920, 1080)	MaxCroppingSize(1920, 1080)	Format(MJPG, 0x47504a4d, 30fps)
+[2017-06-02 11:33:56(925)][I]	MinCroppingSize(1920, 1080)	MaxCroppingSize(1920, 1080)	Format(MJPG, 0x8d1181, 30fps)
+[2017-06-02 11:33:56(926)][I]	Prepare config camera(1-Integrated Webcam): 320x240, 25fps
+[2017-06-02 11:33:56(929)][I]		The best video format is detected: YUY2
+[2017-06-02 11:33:56(931)][I]		SetFormat(320x240, YUY2, 25fps) = 0
+[2017-06-02 11:33:56(932)][I]		Video Config Size(320, 240)	Format(YUY2, 25fps)
+[2017-06-02 11:33:56(968)][I]	video(stream:0) codec init:codec:1, 15fps, 320x240, bitrate:90kbps, quality:3, preset:3, gop:30, handle:2
+[2017-06-02 11:33:56(969)][I]	video(stream:0) init finish:320x240, YUY2, fps:30, codecid:1
+[2017-06-02 11:33:57(876)][I]	On Remote UserCameraControl(dwUserId:4601, bOpen:1, streamindex:0)
+[2017-06-02 11:33:57(899)][I]	video codec init:codec:1, 15fps, 320x240, bitrate:90kbps, quality:3, preset:3, gop:30, handle:3
+[2017-06-02 11:33:57(934)][I]	userid(4601) audio decode, codec:11, 1 channel, 16000Hz
+[2017-06-02 11:33:58(287)][I]	On Remote UserSpeakControl(dwUserId:4601, bOpen:1, streamindex:0)
+[2017-06-02 11:33:58(804)][I]	userid(4601) video decode, codec:1, 1920x1080, delay:0ms
+[2017-06-02 11:33:59(477)][I]	Message	OnP2PConnectState(userid=4600, state=2)
+[2017-06-02 11:33:59(944)][I]	Message	OnP2PConnectState(userid=4601, state=2)
+[2017-06-02 11:34:02(062)][I]	Invoke	LeaveRoom(roomid=151001)	Elapse:140 ms
+[2017-06-02 11:34:02(203)][I]	Close network engine...
+[2017-06-02 11:34:02(209)][I]	Invoke	LogoutServer(userid=4646)	Elapse:141 ms
+[2017-06-02 11:34:02(210)][I]	server net link reset...
+[2017-06-02 11:34:02(446)][I]	server net link reset...
+[2017-06-02 11:34:02(447)][I]	Invoke	BRAC_Release	Elapse:234 ms
