@@ -1,0 +1,48 @@
+﻿<Window x:Name="MainWin" x:Class="Robot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Robot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="831.4" Width="1576" Loaded="Window_Loaded" Closed="Window_Closed" ContentRendered="Window_ContentRendered" WindowStyle="ThreeDBorderWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="groupBox3" Header="Send Cmd" HorizontalAlignment="Right" Margin="0,505,12,0" VerticalAlignment="Top" Width="500" Height="110" FontSize="20" FontWeight="Bold"/>
+        <Grid Margin="0,530,55,0" Height="69" VerticalAlignment="Top" HorizontalAlignment="Right" Width="355">
+            <Button x:Name="sendBtn" Content="Send" HorizontalAlignment="Left" Margin="221,44,0,0" VerticalAlignment="Top" Width="75" Height="25" FontWeight="Bold" BorderThickness="1,1,1,2" Click="sendBtn_Click"/>
+            <TextBox x:Name="sendTxt" HorizontalAlignment="Left" Margin="5,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" FontSize="20" Text="DTU000000000"/>
+            <Label x:Name="label2" Content="Sent cmd:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Label x:Name="cmdTxt" Content="Have not sent anything!" HorizontalAlignment="Left" Margin="107,0,0,0" VerticalAlignment="Top" Width="250" VerticalContentAlignment="Center" FontSize="20"/>
+
+        </Grid>
+        <GroupBox x:Name="Remote" Header="Remote Video" HorizontalAlignment="Left" Margin="12,12,0,11.6" Width="1000" FontSize="20" FontWeight="Bold" Grid.RowSpan="2"/>
+        <GroupBox x:Name="groupBox" Header="Local Video" Margin="0,12,12,0" VerticalAlignment="Top" Height="300" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Width="500"/>
+        <GroupBox x:Name="groupBox1" Header="Robot Info" Margin="0,324,11.6,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="500" Height="80" FontSize="20" FontWeight="Bold"/>
+        <Grid Margin="0,352,37.6,0" Height="38" VerticalAlignment="Top" HorizontalAlignment="Right" Width="449">
+            <Label x:Name="label" Content="X:" HorizontalAlignment="Left" Margin="0,1,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label x:Name="RobXTxt" Content="" HorizontalAlignment="Left" Margin="40,1,0,0" VerticalAlignment="Top" Width="85" FontSize="20" VerticalContentAlignment="Center"/>
+            <Label x:Name="label1" Content="Y:" HorizontalAlignment="Left" Margin="143,0,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label x:Name="RobYTxt" Content="" HorizontalAlignment="Left" Margin="183,1,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.695" Width="85" FontSize="20"/>
+            <Label x:Name="label3" Content="Theta:" HorizontalAlignment="Left" Margin="293,1,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label x:Name="RobThTxt" Content="" HorizontalAlignment="Left" Margin="363,1,0,0" VerticalAlignment="Top" FontSize="20" Width="86"/>
+
+        </Grid>
+        <GroupBox x:Name="groupBox2" Header="Received Cmd" Margin="0,416,11.6,0" VerticalAlignment="Top" Width="500" HorizontalAlignment="Right" Height="80" FontSize="20" FontWeight="Bold">
+            <Label x:Name="ReceiveTxt" Content="Nothing received yet!" HorizontalAlignment="Center" Margin="94,0,94,8" VerticalAlignment="Bottom" Width="300" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Normal"/>
+        </GroupBox>
+        <GroupBox x:Name="groupBox4" Header="System Info" Margin="0,0,12,12" FontSize="20" FontWeight="Bold" Grid.ColumnSpan="5" HorizontalAlignment="Right" Width="500" Height="170" VerticalAlignment="Bottom">
+            <TextBlock x:Name="sysInfoTxt" HorizontalAlignment="Left" Margin="12" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" FontWeight="Normal" FontSize="12"/>
+        </GroupBox>
+
+    </Grid>
+</Window>
