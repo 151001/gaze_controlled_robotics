@@ -1,0 +1,23 @@
+﻿<Window x:Class="Robot2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Robot2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400" HorizontalAlignment="Right" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="Local_Camera" Header="Local camera" Margin="0"/>
+        <GroupBox x:Name="groupBox" Header="Sys Info" Margin="0" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
+            <TextBox x:Name="sysInfoTxt" Margin="3" TextWrapping="Wrap"/>
+        </GroupBox>
+
+    </Grid>
+</Window>
